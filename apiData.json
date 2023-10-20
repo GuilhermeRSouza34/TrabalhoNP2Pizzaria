@@ -126,5 +126,53 @@
     "price": [16.5, 24.99, 29.99],
     "sizes": ["320g", "530g", "860g"],
     "description": "Banana, doce de leite, açúcar e canela."
+  },
+  {
+    "id": 17,
+    "name": "Coca Cola",
+    "img": "images/cocaCola.png",
+    "price": [5.50, 9.00, 15.00],
+    "sizes": ["350 ml", "", ""],
+    "description": ""
+  },
+  {
+    "id": 18,
+    "name": "Coca Cola Zero",
+    "img": "images/cocaColaZero.jpg",
+    "price": [5.50, 9.00, 15.00],
+    "sizes": ["350 ml", "", ""],
+    "description": ""
+  },
+  {
+    "id": 19,
+    "name": "Fanta Laranja",
+    "img": "images/fantaLaranja.webp",
+    "price": [5.50, 9.00, 15.00],
+    "sizes": ["350 ml", "", ""],
+    "description": ""
+  },
+  {
+    "id": 20,
+    "name": "Fanta Uva",
+    "img": "images/fantaUva.png",
+    "price": [5.50, 9.00, 15.00],
+    "sizes": ["350 ml", "", ""],
+    "description": ""
+  },
+  {
+    "id": 21,
+    "name": "Guarana",
+    "img": "images/guarana.png",
+    "price": [5.50, 9.00, 15.00],
+    "sizes": ["350 ml", "", ""],
+    "description": ""
+  },
+  {
+    "id": 22,
+    "name": "Sprite",
+    "img": "images/sprite.jpg",
+    "price": [5.50, 9.00, 15.00],
+    "sizes": ["350 ml", "", ""],
+    "description": ""
   }
 ]

@@ -24,12 +24,12 @@ header = header.innerHTML = `<div class="menu-area">
                     <li>Início</li>
                 </a>
                 <a href="menu.html">
-                    <li>Pizzas</li>
+                    <li>Cardapio</li>
                 </a>
-                <a href="sobre.html" target="_blank">
+                <a href="sobre.html">
                     <li>Sobre</li>
                 </a>
-                <a href="" target="_blank">
+                <a href="">
                     <li>Contato</li>
                 </a>
             </ul>
