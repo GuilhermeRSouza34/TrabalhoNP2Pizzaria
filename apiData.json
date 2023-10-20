@@ -132,7 +132,7 @@
     "name": "Coca Cola",
     "img": "images/cocaCola.png",
     "price": [5.50, 9.00, 15.00],
-    "sizes": ["350 ml", "", ""],
+    "sizes": ["350 ml", "600 ml", "2 litros"],
     "description": ""
   },
   {
@@ -140,7 +140,7 @@
     "name": "Coca Cola Zero",
     "img": "images/cocaColaZero.jpg",
     "price": [5.50, 9.00, 15.00],
-    "sizes": ["350 ml", "", ""],
+    "sizes": ["350 ml", "600 ml", "2 litros"],
     "description": ""
   },
   {
@@ -148,7 +148,7 @@
     "name": "Fanta Laranja",
     "img": "images/fantaLaranja.webp",
     "price": [5.50, 9.00, 15.00],
-    "sizes": ["350 ml", "", ""],
+    "sizes": ["350 ml", "600 ml", "2 litros"],
     "description": ""
   },
   {
@@ -156,7 +156,7 @@
     "name": "Fanta Uva",
     "img": "images/fantaUva.png",
     "price": [5.50, 9.00, 15.00],
-    "sizes": ["350 ml", "", ""],
+    "sizes": ["350 ml", "600 ml", "2 litros"],
     "description": ""
   },
   {
@@ -164,7 +164,7 @@
     "name": "Guarana",
     "img": "images/guarana.png",
     "price": [5.50, 9.00, 15.00],
-    "sizes": ["350 ml", "", ""],
+    "sizes": ["350 ml", "600 ml", "2 litros"],
     "description": ""
   },
   {
@@ -172,7 +172,7 @@
     "name": "Sprite",
     "img": "images/sprite.jpg",
     "price": [5.50, 9.00, 15.00],
-    "sizes": ["350 ml", "", ""],
+    "sizes": ["350 ml", "600 ml", "2 litros"],
     "description": ""
   }
 ]
