@@ -140,7 +140,44 @@ function updateCart() {
   }
 }
 
+function fazerPost(body) {
+  let resquest = new XMLHttpRequest();
+  let url = "localhost:8080";
+  resquest.open("POST", url);
+  resquest.setRequestHeader("Content-type", "application/json");
+  resquest.send(body);
+
+  resquest.onload = () => {
+    console.log(this.responseText);
+  };
+
+  return resquest.responseText;
+}
+
 document.querySelector(".cart--finalizar").addEventListener("click", () => {
+  let produtosFiltrados = [];
+  let body;
+
+  const valorTotal = document.querySelector(".pizzasValor").value;
+  const produtosSelecionados =
+    document.getElementsByClassName("cart--item-nome");
+  const qtdProdutosSelecionados =
+    document.getElementsByClassName("cart--item--qt");
+
+  for (i = 1; i < produtosSelecionados.length; i++) {
+    produtosFiltrados.push({
+      produtoName: produtosSelecionados[i].innerText,
+      qtd: qtdProdutosSelecionados[i].innerText,
+    });
+  }
+  
+  body = {
+    valor: valorTotal,
+    produtos: produtosFiltrados,
+  };
+
+  // fazerPost(body);
+
   cart = [];
   localStorage.clear();
   updateCart();
